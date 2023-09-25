@@ -1,0 +1,185 @@
+.e12 {
+  border: 1px solid gray;
+  width: 300px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.home,
+.notifications,
+.messages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.chat {
+  background-color: blue;
+  color: #fff;
+  padding: 0px 10px;
+  border-radius: 50px;
+}
+
+/* 12f */
+.f12 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(109, 60, 109);
+  padding: 10px;
+  color: #fff;
+  align-items: center;
+}
+
+.left-section {
+  font-size: 16px;
+  width: 200px;
+  font-weight: bold;
+}
+.middle-section {
+  flex: 1;
+  max-width: 750px;
+}
+.search-box {
+  width: 100%;
+  padding: 5px 25px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+}
+
+.right-section {
+  border: 1px solid #fff;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* g12 CE */
+/* .g12 {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  width: 400px;
+}
+.first-section,
+.second-section,
+.third-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.g12-pic {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  display: inline-block;
+}
+.cat-info {
+  width: 100px;
+  margin-bottom: 10px;
+}
+.name {
+  margin: 0;
+}
+.star {
+  margin-bottom: 5px;
+  margin: 0;
+  color: gray;
+}
+.follow {
+  margin-left: 120px;
+  padding: 10px;
+  background-color: rgb(29, 155, 240);
+
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+} */
+
+/* g12 CE another one  */
+.g12 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.g12-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.pet-info {
+  width: 200px;
+}
+.name {
+  font-weight: bold;
+  font-size: 16px;
+}
+.category {
+  margin: 0;
+}
+
+.follow {
+  font-size: 16px;
+  padding: 10px 16px;
+  background-color: rgb(29, 155, 240);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 12gCE solution */
+/* .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+
+.info {
+  width: 200px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.handle {
+  color: rgb(150, 150, 150);
+  margin-bottom: 5px;
+}
+
+.category {
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+}
+
+.follow-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+} */

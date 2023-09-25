@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <link rel="stylesheet" href="css/video.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
+  </head>
+  <body>
+    <!-- flexbox in our header -->
+    <header class="header">
+      <!-- 3 section -->
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="" />
+        <img class="yt-logo" src="icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input
+          class="search-bar"
+          type="text"
+          name="search"
+          placeholder="Search"
+        />
+        <button class="search-btn" title="Search">
+          <img class="search-icon" src="icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-btn">
+          <img
+            class="search-voice-icon"
+            src="icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
+
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+            <img class="upload-icon" src="icons/upload.svg" alt="" />
+            <div class="tooltip">Create</div>
+        </div>
+
+        <div class="yt-icon-container">
+            <img class="yt-apps-icon" src="icons/youtube-apps.svg" alt="" />
+            <div class="tooltip">Youtube apps</div>
+        </div>
+
+        <div class="notifications">
+            <img class="notification-icon" src="icons/notifications.svg" alt="" />
+            <div class="notify">3</div>
+            <div class="tooltip">Notifications</div>
+        </div>
+        </img>
+
+        <img
+          class="current-user"
+          src="channel-picture/my-image.jpg"
+          alt=""
+        />
+      </div>
+    </header>
+    <!-- sidebar -->
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/home.svg" alt="">
+            <div>Homee</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/explore.svg" alt="">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/subscriptions.svg" alt="">
+            <div>subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/originals.svg" alt="">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/youtube-music.svg" alt="">
+            <div>Youtube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/library.svg" alt="">
+            <div>Library</div>
+        </div>
+    </nav>
+
+    <!-- container -->
+    <main>
+        <section class="video-grid">
+        </section>
+    </main>
+<script type="module" src="scripts/youtube.js"></script>
+
+<footer class="footer">
+</footer>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+/* 12a */
+.a12 {
+  display: flex;
+  flex-direction: row;
+}
+.a12-a {
+  background-color: lightblue;
+  width: 200px;
+}
+.a12-b {
+  background-color: lightpink;
+  width: 75px;
+}
+
+/* 12b */
+.b12 {
+  display: flex;
+  flex-direction: row;
+}
+
+.b12-1 {
+  background-color: lightblue;
+  width: 50px;
+}
+.b12-2 {
+  background-color: lightpink;
+  flex: 1;
+}
+.b12-3 {
+  background-color: lightblue;
+  width: 75px;
+}
+
+/* 12c */
+.c12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.c12-1,
+.c12-2,
+.c12-3,
+.c12-4 {
+  background-color: lightpink;
+}
+
+/* 12d */
+.d12 {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  border: 1px solid gray;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.d12-1,
+.d12-2 {
+  background-color: lightpink;
+}
